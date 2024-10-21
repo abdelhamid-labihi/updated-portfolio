@@ -5,7 +5,6 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import ResumePDF from '../assets/img/Abdelhamid-LABIHI-Resume.pdf';
-import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);

@@ -13,10 +13,9 @@ import TrackVisibility from 'react-on-screen';
 import { FaJava, FaPython, FaReact, FaDocker, FaAngular } from "react-icons/fa";
 import { AiOutlineJavaScript } from "react-icons/ai";
 import { BiLogoTypescript, BiLogoGoLang } from "react-icons/bi";
-import { TbBrandCpp, TbBrandReactNative, TbGridPattern } from "react-icons/tb";
-import { GrServices } from "react-icons/gr";
+import { TbBrandReactNative} from "react-icons/tb";
 import { 
-  SiSpring, SiExpo, SiKeycloak, SiApachekafka, SiMysql,
+  SiSpring, SiExpo, SiKeycloak,
   SiTailwindcss, SiJsonwebtokens, SiLangchain,
 
 } from "react-icons/si";
@@ -49,6 +48,7 @@ export const Projects = () => {
         {name: "Java", icon: <FaJava size={30}/>},
         {name: "TS", icon: <BiLogoTypescript size={30}/>},
         {name: "ReactNative", icon: <TbBrandReactNative size={30}/>},
+        {name: "Expo", icon: <SiExpo size={30}/>},
         {name: "SB", icon: <SiSpring size={30}/>},
         {name: "KC", icon: <SiKeycloak size={30}/>},
         {name: "Docker", icon: <FaDocker size={30}/>},
